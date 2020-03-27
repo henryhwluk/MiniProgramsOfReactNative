@@ -40,8 +40,9 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		83CD16E0F6584B3A99B684B9 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44698E05ED844FD0972DEBBA /* libRNGestureHandler.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		B88AEFF8242DDB2800615037 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = B88AEFF6242DDB2700615037 /* assets */; };
-		B88AEFF9242DDB2800615037 /* index.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B88AEFF7242DDB2800615037 /* index.jsbundle */; };
+		B8AF13E4242DEF400035AA4F /* assets in Resources */ = {isa = PBXBuildFile; fileRef = B8AF13E2242DEF400035AA4F /* assets */; };
+		B8AF13E5242DEF400035AA4F /* KitchenSink.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B8AF13E3242DEF400035AA4F /* KitchenSink.jsbundle */; };
+		B8AF13E6242DEF8C0035AA4F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62669F26E8A1495CBCE0FE90 /* Ionicons.ttf */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
@@ -406,8 +407,8 @@
 		AB581DF35EAA442D91BEC750 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B07C1FDA5FFF4DB7A47AC038 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		B88AEFF6242DDB2700615037 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../bundle/assets; sourceTree = "<group>"; };
-		B88AEFF7242DDB2800615037 /* index.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = index.jsbundle; path = ../bundle/index.jsbundle; sourceTree = "<group>"; };
+		B8AF13E2242DEF400035AA4F /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../bundle/assets; sourceTree = "<group>"; };
+		B8AF13E3242DEF400035AA4F /* KitchenSink.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KitchenSink.jsbundle; path = ../bundle/KitchenSink.jsbundle; sourceTree = "<group>"; };
 		B916CE1C8FA74A82AFDB810E /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		BA4139D7E4B94557B885F217 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		C205D4C9CC6B48059EEC2199 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
@@ -563,8 +564,8 @@
 		13B07FAE1A68108700A75B9A /* MiniProgramsOfReactNative */ = {
 			isa = PBXGroup;
 			children = (
-				B88AEFF6242DDB2700615037 /* assets */,
-				B88AEFF7242DDB2800615037 /* index.jsbundle */,
+				B8AF13E2242DEF400035AA4F /* assets */,
+				B8AF13E3242DEF400035AA4F /* KitchenSink.jsbundle */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -1244,10 +1245,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88AEFF8242DDB2800615037 /* assets in Resources */,
+				B8AF13E6242DEF8C0035AA4F /* Ionicons.ttf in Resources */,
+				B8AF13E5242DEF400035AA4F /* KitchenSink.jsbundle in Resources */,
+				B8AF13E4242DEF400035AA4F /* assets in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				B88AEFF9242DDB2800615037 /* index.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
