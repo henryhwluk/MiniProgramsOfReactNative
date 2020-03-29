@@ -17,11 +17,13 @@
   NSURL *jsCodeLocation;
 
 //  jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
-  jsCodeLocation = [NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"KitchenSink.jsbundle" ofType:nil]];
+  jsCodeLocation = [NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"tic-tac-toe.jsbundle" ofType:nil]];
+//  jsCodeLocation = [NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"KitchenSink.jsbundle" ofType:nil]];
 
   
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                      moduleName:@"KitchenSink"
+                                                      moduleName:@"tic-tac-toe"
+//                                                      moduleName:@"KitchenSink"
                                                initialProperties:nil
                                                    launchOptions:launchOptions];
   rootView.backgroundColor = [UIColor blackColor];
