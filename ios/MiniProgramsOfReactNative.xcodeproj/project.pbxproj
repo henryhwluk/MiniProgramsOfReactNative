@@ -24,6 +24,7 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		1E0AB82B432E4B69B10FC332 /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F92CF663D941AFB0CFB8F2 /* libRNGestureHandler-tvOS.a */; };
+		23E804610B0072064EAD2025 /* libPods-MiniProgramsOfReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F3A81B069A96CC914A98A7 /* libPods-MiniProgramsOfReactNative.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -41,11 +42,20 @@
 		83CD16E0F6584B3A99B684B9 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44698E05ED844FD0972DEBBA /* libRNGestureHandler.a */; };
 		8AE50F2A0BDB400987D1A3C2 /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB7F4E4E93243C09CE01AB2 /* libRNSVG.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		B8ABE2512431F405002DF2C2 /* MiniDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ABE2502431F405002DF2C2 /* MiniDetailViewController.m */; };
 		B8AF13E6242DEF8C0035AA4F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62669F26E8A1495CBCE0FE90 /* Ionicons.ttf */; };
 		B8AF158A24305BB30035AA4F /* assets in Resources */ = {isa = PBXBuildFile; fileRef = B8AF158824305BB20035AA4F /* assets */; };
 		B8AF158B24305BB30035AA4F /* KitchenSink.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B8AF158924305BB20035AA4F /* KitchenSink.jsbundle */; };
 		B8AF158F24305CE60035AA4F /* tic-tac-toe.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B8AF158D24305CE60035AA4F /* tic-tac-toe.jsbundle */; };
 		B8AF159024305CE60035AA4F /* tic-tac-toe-assets in Resources */ = {isa = PBXBuildFile; fileRef = B8AF158E24305CE60035AA4F /* tic-tac-toe-assets */; };
+		B8AF159C2430699A0035AA4F /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AF159B2430699A0035AA4F /* ListViewController.m */; };
+		B8AF159F243069A70035AA4F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AF159E243069A70035AA4F /* MainViewController.m */; };
+		B8AF15E42430C6A10035AA4F /* MiniDevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AF15E22430C6A00035AA4F /* MiniDevViewController.m */; };
+		B8AF15E72430C6B00035AA4F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AF15E52430C6B00035AA4F /* HomeViewController.m */; };
+		B8AF15ED2430C6E50035AA4F /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AF15EC2430C6E50035AA4F /* NetworkTool.m */; };
+		B8AF15F42430C80D0035AA4F /* MiniApp.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AF15F32430C80D0035AA4F /* MiniApp.m */; };
+		B8AF15F724318F400035AA4F /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AF15F624318F400035AA4F /* Response.m */; };
+		B8AF15FA2431922B0035AA4F /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AF15F92431922B0035AA4F /* ListTableViewCell.m */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 		F38F72C7790442219FCE48EB /* libRNSVG-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B3D1538C034EADA9D78D69 /* libRNSVG-tvOS.a */; };
@@ -411,6 +421,7 @@
 		5FCCDB917146487193EC0922 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		62669F26E8A1495CBCE0FE90 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		6F30BF94F6744A9788F51375 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		6FB3BF61C5B82CE45CA91980 /* Pods-MiniProgramsOfReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProgramsOfReactNative.release.xcconfig"; path = "Target Support Files/Pods-MiniProgramsOfReactNative/Pods-MiniProgramsOfReactNative.release.xcconfig"; sourceTree = "<group>"; };
 		72FA7F3A85EC4B3FBA3AE323 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		77551F28342A4A739A84D836 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -425,16 +436,36 @@
 		A3E98FF806E3441083D4C8CA /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
 		A6F92CF663D941AFB0CFB8F2 /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; };
 		AB581DF35EAA442D91BEC750 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		ACA555BA12801CA92F2FE1DB /* Pods-MiniProgramsOfReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProgramsOfReactNative.debug.xcconfig"; path = "Target Support Files/Pods-MiniProgramsOfReactNative/Pods-MiniProgramsOfReactNative.debug.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B07C1FDA5FFF4DB7A47AC038 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		B8ABE24F2431F405002DF2C2 /* MiniDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniDetailViewController.h; sourceTree = "<group>"; };
+		B8ABE2502431F405002DF2C2 /* MiniDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniDetailViewController.m; sourceTree = "<group>"; };
 		B8AF158824305BB20035AA4F /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../bundle/KitchenSink/assets; sourceTree = "<group>"; };
 		B8AF158924305BB20035AA4F /* KitchenSink.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KitchenSink.jsbundle; path = ../bundle/KitchenSink/KitchenSink.jsbundle; sourceTree = "<group>"; };
 		B8AF158D24305CE60035AA4F /* tic-tac-toe.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "tic-tac-toe.jsbundle"; path = "../bundle/tic-tac-toe/tic-tac-toe.jsbundle"; sourceTree = "<group>"; };
 		B8AF158E24305CE60035AA4F /* tic-tac-toe-assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "tic-tac-toe-assets"; path = "../bundle/tic-tac-toe/tic-tac-toe-assets"; sourceTree = "<group>"; };
+		B8AF159A243069990035AA4F /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = MiniProgramsOfReactNative/ListViewController.h; sourceTree = "<group>"; };
+		B8AF159B2430699A0035AA4F /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = MiniProgramsOfReactNative/ListViewController.m; sourceTree = "<group>"; };
+		B8AF159D243069A70035AA4F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = MiniProgramsOfReactNative/MainViewController.h; sourceTree = "<group>"; };
+		B8AF159E243069A70035AA4F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = MiniProgramsOfReactNative/MainViewController.m; sourceTree = "<group>"; };
+		B8AF15E22430C6A00035AA4F /* MiniDevViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiniDevViewController.m; path = MiniProgramsOfReactNative/MiniDevViewController.m; sourceTree = "<group>"; };
+		B8AF15E32430C6A00035AA4F /* MiniDevViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiniDevViewController.h; path = MiniProgramsOfReactNative/MiniDevViewController.h; sourceTree = "<group>"; };
+		B8AF15E52430C6B00035AA4F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = MiniProgramsOfReactNative/HomeViewController.m; sourceTree = "<group>"; };
+		B8AF15E62430C6B00035AA4F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = MiniProgramsOfReactNative/HomeViewController.h; sourceTree = "<group>"; };
+		B8AF15EB2430C6E50035AA4F /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkTool.h; path = MiniProgramsOfReactNative/NetworkTool.h; sourceTree = "<group>"; };
+		B8AF15EC2430C6E50035AA4F /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkTool.m; path = MiniProgramsOfReactNative/NetworkTool.m; sourceTree = "<group>"; };
+		B8AF15F22430C80D0035AA4F /* MiniApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiniApp.h; path = MiniProgramsOfReactNative/MiniApp.h; sourceTree = "<group>"; };
+		B8AF15F32430C80D0035AA4F /* MiniApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiniApp.m; path = MiniProgramsOfReactNative/MiniApp.m; sourceTree = "<group>"; };
+		B8AF15F524318F400035AA4F /* Response.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		B8AF15F624318F400035AA4F /* Response.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		B8AF15F82431922B0035AA4F /* ListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		B8AF15F92431922B0035AA4F /* ListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
 		B916CE1C8FA74A82AFDB810E /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		BA4139D7E4B94557B885F217 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		C205D4C9CC6B48059EEC2199 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		C4FDD7503077480EBF5C7345 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		C5F3A81B069A96CC914A98A7 /* libPods-MiniProgramsOfReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniProgramsOfReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0D544F472E4C1584E3017A /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		CE91382BE85A49D283FE4177 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		D43F7A965F9546FF8C42A89C /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
@@ -475,6 +506,7 @@
 				09BDD31DA4614C77A0B199C4 /* libRNVectorIcons.a in Frameworks */,
 				83CD16E0F6584B3A99B684B9 /* libRNGestureHandler.a in Frameworks */,
 				8AE50F2A0BDB400987D1A3C2 /* libRNSVG.a in Frameworks */,
+				23E804610B0072064EAD2025 /* libPods-MiniProgramsOfReactNative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +621,12 @@
 		13B07FAE1A68108700A75B9A /* MiniProgramsOfReactNative */ = {
 			isa = PBXGroup;
 			children = (
+				B8AF15EE2430C7D40035AA4F /* Model */,
+				B8AF15DB24307D000035AA4F /* MiniDev */,
+				B8AF15AF24307CF40035AA4F /* Home */,
+				B8AF1599243069150035AA4F /* NetWork */,
+				B8AF1592243062570035AA4F /* List */,
+				B8AF1591243062470035AA4F /* Main */,
 				B8AF158C24305BC80035AA4F /* tic-tac-toe */,
 				B8AF158724305B980035AA4F /* KitchenSink */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -631,6 +669,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				C5F3A81B069A96CC914A98A7 /* libPods-MiniProgramsOfReactNative.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -726,6 +765,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				38A8A2B886574F0E823C38FF /* Resources */,
 				B88AEE4C242DB7D300615037 /* Recovered References */,
+				8AC783D7DC1C1691C9AE64D7 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -741,6 +781,15 @@
 				2D02E4901E0B4A5D006451C7 /* MiniProgramsOfReactNative-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8AC783D7DC1C1691C9AE64D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACA555BA12801CA92F2FE1DB /* Pods-MiniProgramsOfReactNative.debug.xcconfig */,
+				6FB3BF61C5B82CE45CA91980 /* Pods-MiniProgramsOfReactNative.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
@@ -819,6 +868,66 @@
 			name = "tic-tac-toe";
 			sourceTree = "<group>";
 		};
+		B8AF1591243062470035AA4F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF159D243069A70035AA4F /* MainViewController.h */,
+				B8AF159E243069A70035AA4F /* MainViewController.m */,
+				B8ABE24F2431F405002DF2C2 /* MiniDetailViewController.h */,
+				B8ABE2502431F405002DF2C2 /* MiniDetailViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B8AF1592243062570035AA4F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF159A243069990035AA4F /* ListViewController.h */,
+				B8AF159B2430699A0035AA4F /* ListViewController.m */,
+				B8AF15F82431922B0035AA4F /* ListTableViewCell.h */,
+				B8AF15F92431922B0035AA4F /* ListTableViewCell.m */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		B8AF1599243069150035AA4F /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF15EB2430C6E50035AA4F /* NetworkTool.h */,
+				B8AF15EC2430C6E50035AA4F /* NetworkTool.m */,
+			);
+			name = NetWork;
+			sourceTree = "<group>";
+		};
+		B8AF15AF24307CF40035AA4F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF15E62430C6B00035AA4F /* HomeViewController.h */,
+				B8AF15E52430C6B00035AA4F /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		B8AF15DB24307D000035AA4F /* MiniDev */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF15E32430C6A00035AA4F /* MiniDevViewController.h */,
+				B8AF15E22430C6A00035AA4F /* MiniDevViewController.m */,
+			);
+			name = MiniDev;
+			sourceTree = "<group>";
+		};
+		B8AF15EE2430C7D40035AA4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF15F22430C80D0035AA4F /* MiniApp.h */,
+				B8AF15F32430C80D0035AA4F /* MiniApp.m */,
+				B8AF15F524318F400035AA4F /* Response.h */,
+				B8AF15F624318F400035AA4F /* Response.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -844,6 +953,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MiniProgramsOfReactNative" */;
 			buildPhases = (
+				5711A5F0EF380F3153C1FB86 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
@@ -1374,6 +1484,28 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		5711A5F0EF380F3153C1FB86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniProgramsOfReactNative-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1389,8 +1521,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8AF15F42430C80D0035AA4F /* MiniApp.m in Sources */,
+				B8AF15ED2430C6E50035AA4F /* NetworkTool.m in Sources */,
+				B8ABE2512431F405002DF2C2 /* MiniDetailViewController.m in Sources */,
+				B8AF15E42430C6A10035AA4F /* MiniDevViewController.m in Sources */,
+				B8AF159C2430699A0035AA4F /* ListViewController.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				B8AF159F243069A70035AA4F /* MainViewController.m in Sources */,
+				B8AF15F724318F400035AA4F /* Response.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				B8AF15E72430C6B00035AA4F /* HomeViewController.m in Sources */,
+				B8AF15FA2431922B0035AA4F /* ListTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1516,6 +1657,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA555BA12801CA92F2FE1DB /* Pods-MiniProgramsOfReactNative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1544,6 +1686,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB3BF61C5B82CE45CA91980 /* Pods-MiniProgramsOfReactNative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;

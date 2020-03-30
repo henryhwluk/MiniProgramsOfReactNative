@@ -1,0 +1,1 @@
+../../../HLBagel/iOS/Source/BagelConfiguration.h
