@@ -39,15 +39,15 @@ $ cd MiniProgramsOfReactNative
 $ yarn install
 
 # 项目主要文件目录
-├── ios 							// iOS 原生项目
-├── index.js 					// RN 入口源码文件，根据这个入口可以本地编译成 jsbundle文件
-├── node_modules 			// RN 第三方依赖库合集（包含 iOS 的依赖，可link到项目project）
+├── ios // iOS 原生项目
+├── index.js // RN 入口源码文件，根据这个入口可以本地编译成 jsbundle文件
+├── node_modules // RN 第三方依赖库合集（包含 iOS 的依赖，可link到项目project）
 ├── package-lock.json // npm lock
-├── package.json 			// 包管理文件
-├── app.json 					// RN 模块名称声明文件
+├── package.json // 包管理文件
+├── app.json // RN 模块名称声明文件
 ├── readme.md
-├── yarn.lock 				// yarn lock
-└── bundle 						// 本地编译成 jsbundle文件目录包含assets资源文件
+├── yarn.lock // yarn lock
+└── bundle // 本地编译成 jsbundle文件目录包含assets资源文件
 ```
 
 ### 调试阶段
@@ -60,7 +60,7 @@ import App from './components/App';
 AppRegistry.registerComponent(appName, () => App);
 
 # 更改iOS 模块注册名称如tic-tac-toe：
-	RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                   	 	moduleName:@"tic-tac-toe"
                                                initialProperties:nil
                                                    launchOptions:launchOptions];
@@ -78,7 +78,7 @@ Options:
 
     -h, --help                   输出如何使用的信息
     --entry-file <path>          RN入口文件的路径, 绝对路径或相对路径
-    --platform [string]          ios 或 andorid
+    --platform [string]          ios 或 android
     --transformer [string]       Specify a custom transformer to be used
     --dev [boolean]              如果为false, 警告会不显示并且打出的包的大小会变小
     --prepack                    当通过时, 打包输出将使用Prepack格式化
