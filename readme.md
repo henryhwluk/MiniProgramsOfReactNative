@@ -89,8 +89,8 @@ Options:
     --config [string]            命令行的配置文件路径
 
 # bundle产物目录
-├── index.jsbundle 	// 压缩的 JS 代码
-└── assets 					// 资源文件
+├── index.jsbundle // 压缩的 JS 代码
+└── assets // 资源文件
 
 # 将bundle下文件拖到iOS项目添加引用
 
