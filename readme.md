@@ -29,7 +29,7 @@ npm install -g yarn
 
 ### 运行项目
 
-```J
+```
 # clone
 $ git clone https://github.com/henvyluk/MiniProgramsOfReactNative.git
 
@@ -39,15 +39,15 @@ $ cd MiniProgramsOfReactNative
 $ yarn install
 
 # 项目主要文件目录
-├── ios 							//iOS 原生项目
-├── index.js 					// RN 入口源码文件，根据这个入口可以本地编译成 jsbundle文件
+├── ios 					// iOS 原生项目
+├── index.js 				// RN 入口源码文件，根据这个入口可以本地编译成 jsbundle文件
 ├── node_modules 			// RN 第三方依赖库合集（包含 iOS 的依赖，可link到项目project）
-├── package-lock.json // npm lock
+├── package-lock.json 		// npm lock
 ├── package.json 			// 包管理文件
-├── app.json 					// RN 模块名称声明文件
+├── app.json 				// RN 模块名称声明文件
 ├── readme.md
 ├── yarn.lock 				// yarn lock
-└── bundle 						// 本地编译成 jsbundle文件目录包含assets资源文件
+└── bundle 					// 本地编译成 jsbundle文件目录包含assets资源文件
 ```
 
 ### 调试阶段
@@ -103,12 +103,12 @@ Options:
 
 1、Mini_Demo_01（Ge89c3ed65bf141758aa240e30e9c67ec）
 
-![](/Users/henvy/Desktop/henvy/rn_add_to_native/doc/Ge89c3ed65bf141758aa240e30e9c67ec.png)
+![](./doc/Ge89c3ed65bf141758aa240e30e9c67ec.png)
 
 2、Mini_Demo_02_TicTacToe（G604563f9155d463a8f405f09f7ac3dac）
 
-![](/Users/henvy/Desktop/henvy/rn_add_to_native/doc/G604563f9155d463a8f405f09f7ac3dac.png)
+![](./doc/G604563f9155d463a8f405f09f7ac3dac.png)
 
 3、Mini_Demo_03_HotUpdateDemo（G31f75ea1e3454e6b886ca6e4fe97971e）
 
-![](/Users/henvy/Desktop/henvy/rn_add_to_native/doc/G31f75ea1e3454e6b886ca6e4fe97971e.png)
+![](./doc/G31f75ea1e3454e6b886ca6e4fe97971e.png)
